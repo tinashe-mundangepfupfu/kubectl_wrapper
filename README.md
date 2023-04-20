@@ -9,11 +9,15 @@ Once Rust and Cargo are installed, follow these steps:
 
 Build and Run the project
 
+```
 $ cargo build
 $ cargo run -- <subcommand> [<args>] 
+```
 
 Replace <subcommand> with a kubectl config subcommand like use-context or get-contexts, and provide additional arguments as needed.
 
 For example:
 
+```
 $ cargo run -- use-context my-cluster
+```
